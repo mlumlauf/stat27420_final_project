@@ -23,6 +23,7 @@
 
 **Causal DAG:**
 
+![Causal DAG](./airbnb_causal_dag.png)
 
 There are no unmeasured confounders in the DAG above, so controlling for X (the covariates) is not necessary. However, by controlling for X, we can estimate CATEs.
 
