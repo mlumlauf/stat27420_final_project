@@ -6,3 +6,7 @@
 
 - The original data is found in the raw_data folder.
 - The cleaned data (after replicating the cleaning process from the original analysis) is found in the clean_data folder.
+  - `main_data_cleaned.csv`: the main data cleaned according to the original analysis before merging with other datasets
+  - `survey_data_cleaned.csv`: the survey data cleaned according to the original analysis before merging with other datasets
+  - `merged_main_survey.csv`: the main data and survey data merged with additional cleaning (including new columns such as "yes" which identifies if a host accepted the booking)
+  - `merged_with_hosts.csv`: the above dataset (merged_main_survey.csv) with hosts data merged into it
