@@ -31,3 +31,8 @@ There are no unmeasured confounders in the DAG above, so controlling for X (the 
 1. Estimate ATE using ML.
 2. Estimate CATEs to explore heterogeneity by host, neighborhood, and property characteristics (X).
 3. Compare ML-based ATE and CATEs to those from the paper's linear regression.
+
+
+**Dividing Work:**
+- Maya: CATE (restrict to black/white hosts), CATE (restrict to diverse neighborhoods)
+- Olivia: ATE, CATE (restrict to hosts who have had black guests in the past--observational data)
