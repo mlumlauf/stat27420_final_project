@@ -28,11 +28,13 @@
 There are no unmeasured confounders in the DAG above, so controlling for X (the covariates) is not necessary. However, by controlling for X, we can estimate CATEs.
 
 **Analysis Plan:**
-1. Estimate ATE using ML.
-2. Estimate CATEs to explore heterogeneity by host, neighborhood, and property characteristics (X).
-3. Compare ML-based ATE and CATEs to those from the paper's linear regression.
-
+1. Replicate original paper’s data cleaning/restructuring.
+2. Estimate ATE using ML.
+3. Estimate CATEs to explore heterogeneity by host and neighborhood (X).
+4. Conduct post-analysis credibility checks (quality of fit for models, sensitivity analysis if considering unobserved counfounding). (no overlap because of random assignment of treatment, consider unobserved confounders)
+5. Compare ML-based ATE and CATEs to those from the paper's linear regression.
 
 **Dividing Work:**
 - Maya: CATE (restrict to black/white hosts), CATE (restrict to diverse neighborhoods)
 - Olivia: ATE, CATE (restrict to hosts who have had black guests in the past--observational data)
+- Add on conditioning on property characteristics if we have time
