@@ -1,0 +1,1 @@
+This folder contains the code to estimate the CATEs for this project conditional on the host's race (white/black).
