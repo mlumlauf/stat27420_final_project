@@ -1,0 +1,1 @@
+This folder contains the code to estimate the CATEs for this project conditional on the neighborhood's diversity (measured as proportion African American).
